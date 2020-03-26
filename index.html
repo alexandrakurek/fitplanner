@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="C:/Users/user/Documents/fontawesome-free-5.13.0-web/js/all.css">
+</head>
+
+<body>
+  <div class="header">
+          <b>FIT PLANNER</b>
+          
+  </div>
+   <div class="todo-cnt">
+
+    <form class="todo-form" id="todoForm">
+       <div class="todo-form-row">
+           <label class="todo-form-label" for="todoMessage"><font color = "white"><b>This is what to do:</b></font></label>
+           <textarea class="todo-form-message" name="todoMessage" id="todoMessage"></textarea>
+       </div>
+       <div class="todo-form-row">
+           <button type="submit" class="button todo-form-button"><b>Add</b></button>
+       </div>
+       
+   </form>
+<section class="todo-list-cnt">
+      <header class="todo-list-header">
+        <h2 class="todo-list-title">
+           <font color="white">YOUR TASKS:</font>
+        </h2>
+           <form class="todo-list-search-form">
+               <input type="search" id="todoSearch" class="todo-list-search">
+           </form>
+      </header>
+       
+  <div class="todo-list" id="todoList">
+       
+    <div class="todo-element">
+        <div class="todo-element-bar">
+            <h3 class="todo-element-date">20-10-2016 godz. 16:32</h3>
+            <button class="todo-element-delete" title="Delete">
+                <i class="fas fa-times-circle"></i>    
+        </button>
+    </div>
+    <div class="todo-element-text">
+  20 min amrap
+    </div>
+</div>
+    </div>
+    </section>
+   </div>
+<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
