@@ -1,4 +1,4 @@
-<font color="#1E90FF"><h1>My first fit planner</h1></font>
+<font color="#1E90FF"><h1>My first fit planner (in progress)</h1></font>
 
 ## Table of contens
 * [General info](#general-info)
